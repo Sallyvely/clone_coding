@@ -8,7 +8,7 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false}));
 app.get('/login',function(req,res){
 	res.send('Login please');
-});
+})
 app.listen(3000,function(){
 	console.log('Connected 3000 port!');
 });
