@@ -1,18 +1,61 @@
 body {
-    background-color: powderblue;
+    background-color: black;
   }
   h1 {
-    color: blue;
+    color : white;
   }
   p {
     color: red;
+  }
+  .login-background{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    opacity: .5;  
+  }
+  .background-img{
+    display: block;
+      min-width: 100%;
+      min-height: 100%;
+        
   }
   .login-body{
       margin: 2em auto ;
       max-width: 450px;
       min-height: 100vh;
-
+      display: flex;
+    }
+  .login-content{
+      min-height: 660px;
+      padding : 60px 68px 40px;
+      margin-bottom : 90px;
+      background-color: rgba(0,0,0,.75); 
+  }
+  .id-login{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    padding : 16px 20px 0;
+    background-color: transparent;
+  }
+  .pw-login{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    padding : 16px 20px 0;
+    background-color: transparent;
+    
+  }
+  .btn-login{
+    background-color: #e50914;
+    width: 100%;
+    height: 50px;
+    border: 0; 
+  }
+  .login-info-save{
+    color: white;
   }
   div {
-      margin : 0 auto;
+      display : block;
   }
+  
