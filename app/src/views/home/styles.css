@@ -23,10 +23,11 @@ body {
     width: 100%;
   }
   .login-logo{
-
+    
   }
   .login-logo-svg{
     fill: #e50914;
+    margin-left: 3%;
 
   }
   .svg-icon{
@@ -53,9 +54,11 @@ body {
   }
   .id-input-box{
     padding-bottom: 16px;
+    width:100%;
   }
   .pw-input-box{
     padding-bottom: 16px;
+    width:100%;
   }
   .btn-login-body{
     padding-bottom: 16px;
@@ -65,22 +68,24 @@ body {
     height: 50px;
     border: 0;
     background-color: #333;
+    padding : 16px 20px 0;
   }
-  .login-main-form .id-placeLabel{
+  .id-input-box .id-placeLabel{
     position: absolute;
     color: #8c8c8c;
-    top:37%;
+    top:46%;
   }
-  .login-main-form .pw-placeLabel{
+  .pw-input-box .pw-placeLabel{
     position: absolute;
     color: #8c8c8c;
-    top:44%;
+    top:55%;
   }
   .pw-login{
     width: 100%;
     height: 50px;
     border: 0;
     background-color: #333;
+    padding : 16px 20px 0;
 
   }
   .btn-login{
