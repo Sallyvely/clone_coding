@@ -79,6 +79,19 @@ body {
     font-size: 1.2rem;
     padding-bottom: 20px;
   }
+  .animation-card{
+    padding: 70px 45px;
+  }
+  .animation-text{
+    width:52%;
+  }
+  .animation{
+    width:48%;
+    position: relative;
+  }
+  .img{
+    max-width: 100%;
+  }
   .login-background{
     display: block;
     position: absolute;
