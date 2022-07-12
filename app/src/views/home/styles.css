@@ -71,7 +71,7 @@ body {
   }
   .content-subtitle{
     font-size: 1.625rem;
-    margin: 1rem auto;
+    font-weight: 400;
   }
   .email-form{
     padding-top:0.85rem
@@ -94,8 +94,12 @@ body {
     width:48%;
     height: 100%;
     position: relative;
-    margin: -10% -5% -5% 0;
+    
     display:flex;
+  }
+  .watchOnTv{
+   
+
   }
   .animation-container{
     position: relative;
