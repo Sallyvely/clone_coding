@@ -101,7 +101,21 @@ body {
    
 
   }
-  .animation-container{
+  .animation-card.watchOnDevice .animation-card-container{
+    position: relative;
+  }
+  .animation-card.watchOnDevice .animation-video{
+    position:absolute;
+    width: 100%;
+    top:11%;
+    max-width: 63%;
+    right: 30%;
+  }
+  .animation-card.watchOnDevice .animation-video-content{
+    height:100%;
+    width:100%;
+  }
+  .animation-container, .story-img{
     position: relative;
     z-index: 2;
     width: 100%;
