@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    align-items: center;
   }
   h1 {
     color : white;
@@ -22,6 +23,13 @@ body {
   }
   .svg-nflogo{
     margin-right: auto;
+  }
+  .faq-question{
+    position: relative;
+    width: 100%;
+  }
+  .svg-icon{
+    position: absolute;
   }
   .netflix-logo{
     
@@ -273,4 +281,13 @@ body {
 
   div {
       display : block;
+  }
+  .faq-answer{
+    position: absolute;
+  }
+  .svg-icon{
+    transform: translateY(-50%);
+  }
+  .closed{
+    display: none;
   }
