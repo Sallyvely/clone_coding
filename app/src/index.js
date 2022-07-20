@@ -1,15 +1,5 @@
-const open = document.querySelector(".faq-question");
-const answer = document.querySelector(".faq-answer");
-const close = document.querySelector("svg-icon")
-
-function init(){
-    open.addEventListener("click",function(){
-        answer.classList.remove("closed");
-
-
-    });
-    close.addEventListener("click",function(){
-        answer.classList.add("closed");
-    });
-}
-init();
+$(".faq-question").click(function(){
+    $(this.next)(".faq-answer").stop().slideToggle(300);
+    $(this).toggleClass('on').siblings().removeClass('on');
+    $(this).next(".faq-answer").siblings(".faq-answer").slideUp(300);
+})
