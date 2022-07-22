@@ -7,9 +7,8 @@ for (i=0; i < que.length; i++){
         if(panel.style.display === "block"){
             panel.style.display = "none";
         }
-        else{
+        else {
             panel.style.display = "block";
-        }
-        
+        }      
     });
 }
