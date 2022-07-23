@@ -3,7 +3,7 @@ var i;
 for (i=0; i < que.length; i++){
     que[i].addEventListener("click", function(){
         this.classList.toggle("active");
-        var panel = this.nextElementsSibling;
+        var panel = this.nextElementSibling;
         if(panel.style.display === "block"){
             panel.style.display = "none";
         }
