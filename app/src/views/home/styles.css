@@ -7,6 +7,7 @@ body {
   }
   button{
     color : inherit;
+    font :  inherit;
   }
   
   p {
@@ -31,10 +32,11 @@ body {
     position: relative;
     width: 100%;
   }
-  .svg-icon{
+  .svg-logo{
     position: absolute;
-    right : 5%;
-    top:-30%;
+
+    height: 2.25rem;
+    width: 8.375rem;
   }
 
   .language-select-btn{
@@ -63,6 +65,7 @@ body {
     padding: 70px 45px;
     border-bottom: 8px solid #222;
     color:#fff;
+    
 
   }
   .index-story1-background{
@@ -103,6 +106,7 @@ body {
   }
   .index-story-text{
     width:52%;
+    
   }
   .img-container{
     width:48%;
@@ -179,10 +183,12 @@ body {
 
   }
   .svg-icon{
-    height: 2.25rem;
-    width: 8.375rem;
-    vertical-align: middle;
-    margin: 1%;
+    position: absolute;
+    top:49%;
+    right : 10%;
+    width: 1em;
+    height: 1em;
+    fill: #fff;
   }
   .login-body{
       margin: 2em auto ;
@@ -290,6 +296,10 @@ body {
     text-align: left;
     position: relative;
   }
+  .faq-menu{
+    max-width: 815px;
+    margin: 2em auto;
+  }
   .panel{
     overflow: hidden;
     padding: 0 18px;
@@ -305,11 +315,15 @@ body {
   .active, .faq-question:hover{
     background-color: #ccc;
   }
-
-
-  .faq-card .svg-closed{
+  .faq-card{
+    font-size : 1.625rem;
+    text-align: center;
+  }
+  
+  .faq-card .svg-closed {
     transform: translateY(-50%) rotate(-45deg);
   }
-  .faq-card .svg-open{
+
+  .faq-card button.active .svg-icon{
     transform:translateY(-50%);
   }
