@@ -327,3 +327,6 @@ body {
   .faq-card button.active .svg-icon{
     transform:translateY(-50%);
   }
+  .email-form-button{
+    display: inline-block;
+  }
