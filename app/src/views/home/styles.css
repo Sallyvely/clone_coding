@@ -330,3 +330,12 @@ body {
   .email-form-button{
     display: inline-block;
   }
+  .email-form-button button{
+    min-height:60px;
+    background-color: #e50914;
+    padding: 0 1em;
+  }
+  .email-form input{
+    min-width: 450px;
+    height: 60px;
+  }
