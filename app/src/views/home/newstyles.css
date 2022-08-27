@@ -1,0 +1,88 @@
+body{
+    background-color: wheat;
+}
+.email-form input{
+    min-width: 450px;
+    height: 60px;
+  }
+.nfTextField{
+  padding: 10px 10px 0;
+  width: 100%;
+  height: 60px;
+  display: block;
+  box-sizing: border-box;
+}
+ul > li{
+  margin-left: 0;
+  list-style: none;
+
+}
+.nfFormSpace{
+  margin-bottom: 10px;
+}
+
+ul{
+  padding:0;
+}
+input[type=checkbox] + label:before{
+  background-color: #fff;
+  border: 1px solid;
+  content:"";
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  left:32px;
+}
+.submitBtn{
+    width: 100%;
+    min-width: 110px;
+    padding: 20.5px 2em;
+    background-color: #e50914;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+}
+
+body .submitBtn{
+    font-size: 24px;
+    font-weight: 500;
+    min-height: 64px;
+}
+.ui-binary{
+    font-size: 16px;
+}
+.svg-nflogo{
+    margin-left: 3%;
+
+}
+.svg-icon{
+    fill:#e50914;
+    display: inline-block;
+    height: 20px;
+    width: 75px;;
+    padding-top: 0;
+}
+body .nfHeader{
+    border-bottom: 1px solid #e6e6e6;
+}
+.nfHeader .SignupHeader{
+    color: #333;
+    float: right;
+}
+ul > li{
+    margin-left: 0;
+    list-style: none;
+}
+ul{
+    padding:0;
+  }  
+.stepTitle{
+    font-size: 32px;
+    margin: 0 0 .4em;
+}
+.Container .centerContainer{
+    padding: 20px 32px 60px;
+}
+.contextRow{
+    font-size: 18px;
+}
