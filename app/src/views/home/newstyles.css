@@ -1,5 +1,8 @@
 body{
-    background-color: wheat;
+    background-color: white;
+}
+h1{
+    margin: 0 0 .4em;
 }
 .email-form input{
     min-width: 450px;
@@ -84,6 +87,7 @@ body .nfHeader{
 .nfHeader .SignupHeader{
     color: #333;
     float: right;
+    text-decoration: none;
 }
 ul > li{
     margin-left: 0;
@@ -95,6 +99,9 @@ ul{
 .stepTitle{
     font-size: 32px;
     margin: 0 0 .4em;
+}
+.stepHeader-Container{
+    margin-top: 20px;
 }
 .Container .centerContainer{
     padding: 20px 32px 60px;

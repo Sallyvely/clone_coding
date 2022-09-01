@@ -214,12 +214,23 @@ body {
   .btn-login-body{
     padding-bottom: 16px;
   }
+  .btn-red{
+    background-color: #e50914;
+    color: #fff;
+  }
+  .Startbtn{
+    min-height: 60px;
+  }
+  .StartContainer{
+    display:inline-block;
+  }
   .id-login{
     width: 100%;
     height: 50px;
     border: 0;
     background-color: #333;
     padding : 16px 20px 0;
+    box-sizing: border-box;
   }
   .id-input-box .id-placeLabel{
     position: absolute;
@@ -237,6 +248,7 @@ body {
     border: 0;
     background-color: #333;
     padding : 16px 20px 0;
+    box-sizing: border-box;
 
   }
   .btn-login{
