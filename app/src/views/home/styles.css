@@ -80,6 +80,8 @@ body {
     padding: 75px 0;
     margin: 0 auto;
     text-align: center;
+    font-size: 1.625rem;
+    font-weight: 400;
   }
   .content-title{
     font-size: 3.125rem;
@@ -90,6 +92,12 @@ body {
   }
   .email-form{
     padding-top:0.85rem
+  }
+  .email-form-lockup{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: row;
   }
   .email-form-title{
     font-size: 1.2rem;
@@ -220,6 +228,8 @@ body {
   }
   .Startbtn{
     min-height: 60px;
+    border: none;
+    padding: 0 1em;
   }
   .StartContainer{
     display:inline-block;
