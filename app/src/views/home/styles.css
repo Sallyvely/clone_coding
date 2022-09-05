@@ -82,6 +82,7 @@ body {
     text-align: center;
     font-size: 1.625rem;
     font-weight: 400;
+    max-width: 950px;
   }
   .content-title{
     font-size: 3.125rem;
@@ -91,7 +92,10 @@ body {
     font-weight: 400;
   }
   .email-form{
-    padding-top:0.85rem
+    padding-top:0.85rem;
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
   }
   .email-form-lockup{
     display: flex;
