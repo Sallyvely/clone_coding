@@ -30,7 +30,8 @@ body {
     z-index: 10;
   }
   .svg-nflogo{
-    margin-right: auto;
+    height: 45px;
+    width: 167px;
   }
   .faq-question{
     position: relative;
@@ -76,12 +77,42 @@ body {
   }
 
   .downloadAndWatch .animation-video{
-    background-color: #333;
+    background-color: #000;
     width: 60%;
     position: absolute;
     align-items: center;
     display: flex;
-    height: 80px;
+    bottom: 8%;
+    right: 20%;
+    border: 2px solid hsla(0, 0%, 100%, .25);
+    margin: 0 auto;
+    border-radius: .75em;
+    padding:.5em .75em;
+  }
+  .downloadAndWatch .animation-video img{
+    height: 3em;
+  }
+  .downloadAndWatch .animiaton-video-image{
+    margin: 0 1em 0 0;
+  }
+  .downloadAndWatch .animation-video-text{
+    margin: .3em 0;
+    flex-grow: 1;
+  }
+  .downloadAndWatch .animation-video-custom{
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
+    width: 3em;
+    display: block;
+    height: 48px;
+    background-size: 100%;
+  }
+  .downloadAndWatch .text-0{
+    font-size: 1em;
+  }
+  .downloadAndWatch .text-1{
+    font-size: .75em;
+    color: #0071eb;
+    font-weight: 200;
   }
   .index-story1-background{
     position: absolute;
@@ -152,13 +183,13 @@ body {
     top:11%;
     max-width: 63%;
     right: 30%;
+    left: 19%;
   }
   .animation-card.watchOnDevice .animation-video-content{
     height:100%;
     width:100%;
   }
   .animation-container, .story-img{
-    position: relative;
     z-index: 2;
     width: 100%;
   }
@@ -216,6 +247,16 @@ body {
     fill: #fff;
     right: 1em;
     bottom: 10%;
+  }
+  .login-logo{
+    top:0;
+  }
+  .login-logo .nf-logo-svg{
+    position: absolute;
+    fill: #e50914;
+    margin-left: 3%;
+    
+
   }
   .login-body{
       margin: 2em auto ;
@@ -296,6 +337,8 @@ body {
   .footer{
     background-color: rgba(0,0,0,.75);
     position: relative;
+    margin: 0 auto;
+    max-width: 1000px;
   }
   .site-footer{
     width: 90%;
