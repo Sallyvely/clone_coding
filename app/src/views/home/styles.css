@@ -10,7 +10,9 @@ body {
     color : inherit;
     font :  inherit;
   }
-  
+  a{
+    text-decoration: none;
+  }
   p {
     display:block;
   }
@@ -287,6 +289,7 @@ body {
       min-height: 660px;
       /*display: flex;*/
       padding: 60px 68px 40px;
+      color:#333;
   }
   .login-main-form{
     display:block;
@@ -359,11 +362,11 @@ body {
     border: 0;
     margin: 24px 0 12px;
   }
-  .login-info-save{
-    color: white;
-  }
   .login-signup-now{
-    color: #fff;
+    margin-bottom: 100px;
+  }
+  .login-signup-now a{
+    color:#fff;
   }
   .img-wrapper{
     position: absolute;
