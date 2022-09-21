@@ -17,9 +17,14 @@ class User{
         }
         return { success: false, msg:"failed"};
     }    
-    register(){
+    async register(){
         const client = this.body;
-        UserStorage.save(client);
+        try{
+            const response = UserStorage.save(client);
+            return response;
+        } catch(err){
+            return {success: false, msg: err };
+        }
     }
 }
 
