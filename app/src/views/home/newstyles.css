@@ -61,7 +61,7 @@ input[type=checkbox] + label:before{
 body .submitBtn{
     font-size: 24px;
     font-weight: 500;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 .ui-binary{
     font-size: 16px;
